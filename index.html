@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portable Bookshelf</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-black">
+    <article id="Banner"><h1 class="text-light p-3">Portable Bookshelf</h1></article>
+    <br>
+    <section id="Main" class="container text-center">
+        <aside id="Commands">
+            <button onclick="Reset()" id="Save"><i style="color: white;" class="fa-solid fa-x"></i></button>    
+            <input type="file" id="AddBook">
+            <button onclick="Save()" id="Save"><i style="color: white;" class="fa-solid fa-book"></i></button>    
+        </aside>
+        <br>
+        <div id="Rack">
+        <div id="Shelf" class="Shelf">
+        </div>
+        </div>
+    </section>
+    <script src="logic.js"></script>
+</body>
+</html>
